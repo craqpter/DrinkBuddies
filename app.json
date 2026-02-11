@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "DrinkBuddies",
+    "slug": "drinkbuddies",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {},
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Allow DrinkBuddies to access your location."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow DrinkBuddies to access your photos.",
+          "cameraPermission": "Allow DrinkBuddies to use your camera."
+        }
+      ]
+    ]
+  }
+}
+
